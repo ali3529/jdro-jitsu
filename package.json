@@ -1,0 +1,31 @@
+{
+  "name": "jdr-analizy-jistu",
+  "version": "1.0.12",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && npm update && npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "@jitsu/jitsu-react": "^1.8.2",
+    "@jitsu/js": "^1.8.2"
+  },
+  "compilerOptions": {
+    "declaration": true
+  }
+}
